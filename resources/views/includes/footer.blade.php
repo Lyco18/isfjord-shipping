@@ -1,4 +1,3 @@
-
 <div class="footer-outer-wrap">
     <div class="footer-inner-wrap">
         <div class="footer-col-1">
@@ -16,5 +15,5 @@
     </div>
     <hr>
     <br>
-    <div id="copyright text-right">© Copyright 2020 Cocozza</div>
+    <div class="copyright">© Copyright 2020 Cocozza</div>
 </div>

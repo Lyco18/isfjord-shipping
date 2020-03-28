@@ -12,24 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/home');
 });
 
 Route::get('/home', function () {
     return view('pages/home');
 });
 
-Route::get('/contact', function () {
-    return view('pages/contact');
-});
+Route::get('/contact', 'ContactController@show');
+
+Route::post('/contact',  'ContactController@mailToAdmin');
 
 Route::get('/malmo', function () {
     return view('pages/malmo');
 });
 
-Route::get('/gallery', function () {
-    return view('pages/gallery');
-});
+Route::get('/gallery', 'GalleryController@show');
 
 Route::get('/options', function () {
     return view('pages/options');

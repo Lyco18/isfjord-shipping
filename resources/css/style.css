@@ -41,26 +41,113 @@ main {
  */
 
 .navbar-inner {
- text-align: center;
- color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 
 .navbar-inner > a {
- color: #636b6f;
- padding: 0 25px;
- font-size: 13px;
- font-weight: 600;
- letter-spacing: .1rem;
- text-decoration: none;
- text-transform: uppercase;
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+
+
+/**
+* Classes in form
+*/
+
+label {
+    float: left;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: #5dade2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #3498db;
+}
+
+.col-12 {
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.luna-message {
+    width: 100%;
+    height: 220px;
+}
+
+
+
+/**
+* Classes in gallery
+*/
+
+.content {
+    width: 1100px;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 40%;
+    padding: 0 4px;
+}
+
+.column img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
 
 /**
 * Classes in body
 */
 
+.home-body {
+    background-image:url('../../public/storage/img/fortojdisen-5376.JPG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .container {
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 .full-height {
@@ -84,7 +171,6 @@ main {
 }
 
 .content {
-    margin-top: 10px;
     text-align: center;
 }
 
@@ -110,7 +196,7 @@ main {
 .footer-inner-wrap {
     margin: 0 auto;
     display: table;
-    width: 1100px;
+    width: 100%;
 }
 
 .footer-col-1,

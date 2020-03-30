@@ -1,8 +1,8 @@
 <div class="navbar-inner">
-    <a href="home">Home</a>
-    <a href="malmo">Malmö</a>
-    <a href="charter">Charter Our Ships</a>
-    <a href="options">Cruise Options</a>
-    <a href="contact">Contact</a>
-    <a href="gallery">Gallery</a>
+    <a href="{{ asset('home') }}">Home</a>
+    <a href="{{ asset('malmo') }}">Malmö</a>
+    <a href="{{ asset('charter') }}">Charter Our Ships</a>
+    <a href="{{ asset('options') }}">Cruise Options</a>
+    <a href="{{ asset('contact') }}">Contact</a>
+    <a href="{{ asset('gallery') }}">Gallery</a>
 </div>

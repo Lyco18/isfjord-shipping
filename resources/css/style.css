@@ -39,18 +39,23 @@ main {
 /**
  * Classes in navbar
  */
-
+.navbar-outer {
+    background-color: white;
+}
 .navbar-inner {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
     text-align: center;
-    color: white;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar-inner > a {
     color: #636b6f;
     padding: 0 25px;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
@@ -124,6 +129,10 @@ button[type=submit]:hover {
     padding: 0 4px;
 }
 
+.gallery img {
+    width: 100%;
+}
+
 .column {
     flex: 40%;
     padding: 0 4px;
@@ -173,14 +182,19 @@ button[type=submit]:hover {
     text-align: center;
 }
 
-.title {
+.m-b-md {
     font-size: 84px;
 }
 
-.m-b-md {
-    margin-bottom: 30px;
+.m-b-md a {
+    margin: 0 auto;
+    color: #636b6f;
+    padding: 0 10px;
+    font-size: 13px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
 /**
  * Classes in footer
  */

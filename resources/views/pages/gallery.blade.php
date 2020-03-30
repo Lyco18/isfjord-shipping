@@ -3,10 +3,10 @@
 <div class="flex-center position-ref">
     <div class="content">
         <div class="title m-b-md">
+            @foreach ($tags as $tag)
+                <a href="gallery/{{ $tag }}">{{ $tag }}</a>
+            @endforeach
             <div class="gallery">
-                @foreach ($galleries as $tag)
-                    <p class="p-tags">{{ $tag->tag }}</p>
-                @endforeach
                 <div class="column">
                     @for ($i = 0; $i < (count($galleries)/2); $i++)
                         <img src="../{{ $galleries[$i]->photo }}"></img>

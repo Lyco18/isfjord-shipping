@@ -29,6 +29,8 @@ Route::get('/malmo', function () {
 
 Route::get('/gallery', 'GalleryController@show');
 
+Route::get('/gallery/{tag}', 'GalleryController@showTag');
+
 Route::get('/options', function () {
     return view('pages/options');
 });

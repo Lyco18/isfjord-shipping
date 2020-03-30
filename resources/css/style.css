@@ -39,15 +39,18 @@ main {
 /**
  * Classes in navbar
  */
+.navbar {
+    height: 65px;
+}
 .navbar-outer {
-    background-color: white;
+    background-color: rgba(240, 240, 240, 0.6);
 }
 .navbar-inner {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: rgba(240, 240, 240, 0.6);
     position: fixed;
     z-index: 1;
 }
@@ -124,6 +127,7 @@ button[type=submit]:hover {
 }
 
 .gallery {
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -148,10 +152,16 @@ button[type=submit]:hover {
 * Classes in body
 */
 
-.home-body {
-    background-image:url('../../public/storage/img/fortojdisen-5376.JPG');
-    background-size: 100%;
+.front-image {
+    width: 100%;
+}
+
+.front-image img {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {

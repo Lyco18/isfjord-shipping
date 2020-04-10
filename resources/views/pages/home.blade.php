@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class="front-image  full-height">
-    <img src="{{ asset('../public/storage/img/fortojdisen-5376.JPG') }}"></img>
+    <img src="{{ asset('storage/img/fortojdisen-5376.JPG') }}"></img>
 </div>
 <div class="flex-center position-ref">
     <div class="content">

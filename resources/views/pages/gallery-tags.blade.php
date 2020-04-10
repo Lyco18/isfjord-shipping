@@ -8,7 +8,8 @@
             @endforeach
             <div class="gallery">
                 @foreach ($galleries as $photo)
-                    <img src="../../{{ $photo->photo }}"></img>
+                    <img src="{{
+                    asset($photo->photo) }}"></img>
                 @endforeach
             </div>
         </div>

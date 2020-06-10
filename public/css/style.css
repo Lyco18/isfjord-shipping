@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and (max-width: 1014px) {
+    .front-image {
+        display: none;
+
+    }
+}
 /**
  * html body main
  */
@@ -214,6 +220,7 @@ button[type=submit]:hover {
     background-color: #424242;
     padding-top: 24px;
     padding-bottom: 48px;
+    position: sticky;
 }
 
 .footer-inner-wrap {

@@ -1,8 +1,8 @@
 @extends('layouts.default')
 @section('content')
-<div class="front-image  full-height">
-    <img src="{{ asset('storage/img/fortojdisen-5376.JPG') }}"></img>
-</div>
+<section class="front-image full-height">
+    <h2> Isfjord Shipping AB - Home </h2>
+</section>
 <div class="flex-center position-ref full-height">
     <div class="content">
         <div class="title m-b-md">
